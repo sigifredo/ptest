@@ -1,4 +1,8 @@
 #!/usr/bin/ruby
+# Author: Sigifredo Escobar Gómez
+# Email: sigifredo89@gmail.com
+# Date: Sat, 22 Feb 2014 16:39:47 -0500
+# Algorithm: Bubble Sort
 
 def bubble(arr)
     for i in 0...arr.length

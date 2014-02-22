@@ -1,3 +1,10 @@
+/**
+ * Author: Sigifredo Escobar Gómez
+ * Email: sigifredo89@gmail.com
+ * Date: Sat, 22 Feb 2014 16:39:47 -0500
+ * Algorithm: Bubble Sort
+ */
+
 package main
 
 import "fmt"
