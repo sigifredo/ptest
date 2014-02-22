@@ -1,3 +1,9 @@
+/**
+ * Author: Sigifredo Escobar Gómez
+ * Email: sigifredo89@gmail.com
+ * Date: Sat, 22 Feb 2014 16:39:47 -0500
+ * Algorithm: Cocktail Sort
+ */
 
 
 #include <stdio.h>
@@ -5,41 +11,39 @@
 
 void cocktail(int * arr, int n)
 {
-    int i, j, izq, der, ultimo;
-    int aux;
+    int i, left, right, swap;
 
-    izq = 2;
-    der = ultimo = n;
+    left = 0;
+    right = n-1;
 
     do
     {
-        for (i = der; i < izq; i--)
+        swap = 0;
+        for (i = right; i > left; i--)
         {
             if (arr[i-1] > arr[i])
             {
-                aux = arr[i];
-                arr[i] = arr[i-1];
-                arr[i-1] = aux;
-                ultimo = i;
+                arr[i] = arr[i] + arr[i-1];
+                arr[i-1] = arr[i] - arr[i-1];
+                arr[i] = arr[i] - arr[i-1];
+
+                swap = 1;
             }
         }
 
-        izq = ultimo - 1;
-
-        for (j = izq; j < der; j++)
+        for (i = left; i < right; i++)
         {
-            if (arr[j-1] > arr[j])
+            if (arr[i-1] > arr[i])
             {
-                aux =  arr[j];
-                arr[j] = arr[j-1];
-                arr[j-1] = aux;
-                ultimo = j;
+                arr[i] = arr[i] + arr[i-1];
+                arr[i-1] = arr[i] - arr[i-1];
+                arr[i] = arr[i] - arr[i-1];
+
+                swap = 1;
             }
         }
-
-        der = ultimo - 1;
     }
-    while (izq > der);
+    while (swap);
 }
 
 int main()
