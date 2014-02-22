@@ -12,11 +12,9 @@ def bubble(arr)
     end
 end
 
-n = Integer(gets)
+arr = Array.new(Integer(gets), 0)
 
-arr = Array.new(n, 0)
-
-for i in 0...n
+for i in 0...arr.length
     arr[i] = Integer(gets)
 end
 
