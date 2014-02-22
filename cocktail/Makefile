@@ -6,8 +6,8 @@ c:dir
 go:dir
 	gccgo -g -o build/cocktail.go cocktail.go
 
-run:c
-	./build/cocktail.c < numbers.txt
+run:go
+	./build/cocktail.go < numbers.txt
 
 dir:
 	mkdir -p build
