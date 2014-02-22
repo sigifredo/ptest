@@ -10,14 +10,15 @@ def bubble(arr):
                 arr[j] = arr[j] - arr[j+1];
 
 
-n = int(raw_input(""))
+if __name__ == '__main__':
+    n = int(raw_input(""))
 
-arr = range(n)
+    arr = range(n)
 
-for i in range(n):
-    arr[i] = int(raw_input(""))
+    for i in range(n):
+        arr[i] = int(raw_input(""))
 
-bubble(arr)
+    bubble(arr)
 
-for i in arr:
-    print i,
+    for i in arr:
+        print i,
