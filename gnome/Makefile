@@ -6,8 +6,8 @@ c:dir
 go:dir
 	gccgo -g -o build/gnome.go gnome.go
 
-run:c
-	./build/gnome.c < numbers.txt
+run:go
+	./build/gnome.go < numbers.txt
 
 dir:
 	mkdir -p build
