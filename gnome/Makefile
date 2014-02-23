@@ -1,13 +1,13 @@
 
 
 c:dir
-	gcc -o build/bubble.c bubble.c
+	gcc -o build/gnome.c gnome.c
 
 go:dir
-	gccgo -g -o build/bubble.go bubble.go
+	gccgo -g -o build/gnome.go gnome.go
 
 run:c
-	./build/bubble.c < numbers.txt
+	./build/gnome.c < numbers.txt
 
 dir:
 	mkdir -p build
