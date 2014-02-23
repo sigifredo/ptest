@@ -1,7 +1,7 @@
 /**
  * Author: Sigifredo Escobar Gómez
  * Email: sigifredo89@gmail.com
- * Date: Sat, 22 Feb 2014 17:16:39 -0500
+ * Date: Sun, 23 Feb 2014 12:11:00 -0500
  * Algorithm: Cocktail Sort
  */
 
@@ -11,12 +11,12 @@ package main
 import "fmt"
 
 func cocktail(arr []int) {
-    var swap bool
+    swap := true
 
     left := 1
     right := len(arr)-1
 
-    for {
+    for swap {
         swap = false
 
         for i := right; i > left; i-- {
@@ -37,10 +37,6 @@ func cocktail(arr []int) {
 
                 swap = true
             }
-        }
-
-        if !swap {
-            break
         }
     }
 }
