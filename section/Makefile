@@ -6,8 +6,8 @@ c:dir
 go:dir
 	gccgo -g -o build/section.go section.go
 
-run:c
-	./build/section.c < numbers.txt
+run:go
+	./build/section.go < numbers.txt
 
 dir:
 	mkdir -p build
