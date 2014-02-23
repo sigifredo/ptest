@@ -1,7 +1,7 @@
 /**
  * Author: Sigifredo Escobar Gómez
  * Email: sigifredo89@gmail.com
- * Date: Sun, 23 Feb 2014 15:46:45 -0500
+ * Date: Sun, 23 Feb 2014 16:01:12 -0500
  * Algorithm: Insertion Sort
  */
 
@@ -18,7 +18,7 @@ void insertion(int * arr, int n)
         {
             tmp = arr[i];
             j = i - 1;
-            while ((arr[j] > tmp) && j >= 0)
+            while (j >= 0 && arr[j] > tmp)
             {
                 arr[j+1] = arr[j];
                 j--;

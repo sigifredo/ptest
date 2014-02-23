@@ -6,8 +6,8 @@ c:dir
 go:dir
 	gccgo -g -o build/insertion.go insertion.go
 
-run:c
-	./build/insertion.c < numbers.txt
+run:go
+	./build/insertion.go < numbers.txt
 
 dir:
 	mkdir -p build
