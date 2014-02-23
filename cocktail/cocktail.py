@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author: Sigifredo Escobar Gómez
 # Email: sigifredo89@gmail.com
-# Date: Sat, 22 Feb 2014 16:39:47 -0500
+# Date: Sun, 23 Feb 2014 12:01:38 -0500
 # Algorithm: Cocktail Sort
 
 def cocktail(arr):
@@ -14,17 +14,12 @@ def cocktail(arr):
     while True:
         swap = False;
         for i in range(left, right):
-            if (arr[-i+1] > arr[-i]):
-                print arr[-i+1], " <=> ", arr[-i]
-                arr[-i] = arr[-i] + arr[-i+1];
-                arr[-i+1] = arr[-i] - arr[-i+1];
-                arr[-i] = arr[-i] - arr[-i+1];
+            if (arr[-i-1] > arr[-i]):
+                arr[-i] = arr[-i] + arr[-i-1];
+                arr[-i-1] = arr[-i] - arr[-i-1];
+                arr[-i] = arr[-i] - arr[-i-1];
 
                 swap = True;
-
-        for i in arr:
-            print i,
-        print ""
 
         for i in range(left, right):
             if (arr[i-1] > arr[i]):
