@@ -3,7 +3,7 @@
 # Author: Sigifredo Escobar Gómez
 # Email: sigifredo89@gmail.com
 # Date: Sun, 23 Feb 2014 13:52:44 -0500
-# Algorithm: Section Sort
+# Algorithm: Selection Sort
 
 
 def section(arr):

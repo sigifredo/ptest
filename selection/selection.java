@@ -2,7 +2,7 @@
  * Author: Sigifredo Escobar Gómez
  * Email: sigifredo89@gmail.com
  * Date: Sun, 23 Feb 2014 13:35:35 -0500
- * Algorithm: Section Sort
+ * Algorithm: Selection Sort
  */
 
 import java.util.Scanner;
