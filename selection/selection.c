@@ -10,7 +10,7 @@
 
 void swap(int * v1, int * v2);
 
-void section(int * arr, int n)
+void selection(int * arr, int n)
 {
     int i, j, minimum;
 
@@ -39,7 +39,7 @@ int main()
     for (i = 0; i < n; i++)
         scanf("%d", arr+i);
 
-    section(arr, n);
+    selection(arr, n);
 
     for (i = 0; i < n-1; i++)
         printf("%d,", arr[i]);

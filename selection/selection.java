@@ -8,10 +8,10 @@
 import java.util.Scanner;
 
 
-class section
+class selection
 {
 
-    public static void section(int[] arr)
+    public static void selection(int[] arr)
     {
         int i, j, minimum;
 
@@ -44,7 +44,7 @@ class section
         for (int i = 0; i < n; i++)
             arr[i] = scan.nextInt();
 
-        section(arr);
+        selection(arr);
 
         for (int i = 0; i < n-1; i++)
             System.out.print("" + arr[i] + ",");

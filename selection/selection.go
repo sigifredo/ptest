@@ -9,7 +9,7 @@ package main
 
 import "fmt"
 
-func section(arr []int) {
+func selection(arr []int) {
 
     for i := 0; i < len(arr)-1; i++ {
         minimum := i;
@@ -39,7 +39,7 @@ func main() {
         fmt.Scanf("%d", &arr[i])
     }
 
-    section(arr)
+    selection(arr)
 
     for _, v := range arr {
         fmt.Printf("%d ", v)

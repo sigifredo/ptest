@@ -6,7 +6,7 @@
 # Algorithm: Selection Sort
 
 
-def section(arr):
+def selection(arr):
 
     for i in range(len(arr)-1):
         minimum = i;
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     for i in range(n):
         arr[i] = int(raw_input(""))
 
-    section(arr)
+    selection(arr)
 
     for i in arr:
         print i,

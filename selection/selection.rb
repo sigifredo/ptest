@@ -5,7 +5,7 @@
 # Algorithm: Selection Sort
 
 
-def section(arr)
+def selection(arr)
 
     for i in 0...arr.length-1
         minimum = i;
@@ -31,7 +31,7 @@ for i in 0...arr.length
     arr[i] = Integer(gets)
 end
 
-section(arr)
+selection(arr)
 
 for i in arr
     puts i
