@@ -1,13 +1,16 @@
 
 
 c:dir
-	gcc -o build/section.c section.c
+	gcc -o build/selection.c selection.c
+
+cpp:dir
+	g++ -o build/selection.cpp selection.cpp
 
 go:dir
-	gccgo -g -o build/section.go section.go
+	gccgo -g -o build/selection.go selection.go
 
 run:go
-	./build/section.go < numbers.txt
+	./build/selection.go < numbers.txt
 
 dir:
 	mkdir -p build
