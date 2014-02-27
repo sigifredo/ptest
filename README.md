@@ -7,7 +7,7 @@ Algoritmos implementados
 ------------------------
 
 Algoritmo | Complejidad
---------- | O(n^2)
+--------- | -----------
 Bubble Sort (Ordenamiento de burbuja) | O(n^2)
 Cocktail Sort (Ordenamiento de burbuja bidireccional) | O(n^2)
 Gnome Sort | O(n^2)
