@@ -1,4 +1,4 @@
-Algoritos de ordenamiento
+Algoritmos de ordenamiento
 ===================================================
 
 En el actual repositorio se pueden encontrar implementaciones de algunos de los algoritmos de ordenamiento más conocidos.
