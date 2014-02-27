@@ -9,8 +9,8 @@ cpp:dir
 go:dir
 	gccgo -g -o build/bubble.go bubble.go
 
-run:go
-	./build/bubble.go < numbers.txt
+java:dir
+	javac -d build/ bubble.java
 
 dir:
 	mkdir -p build

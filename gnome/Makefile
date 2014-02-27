@@ -9,8 +9,8 @@ cpp:dir
 go:dir
 	gccgo -g -o build/gnome.go gnome.go
 
-run:go
-	./build/gnome.go < numbers.txt
+java:dir
+	javac -d build/ gnome.java
 
 dir:
 	mkdir -p build

@@ -9,8 +9,8 @@ cpp:dir
 go:dir
 	gccgo -g -o build/cocktail.go cocktail.go
 
-run:go
-	./build/cocktail.go < numbers.txt
+java:dir
+	javac -d build/ cocktail.java
 
 dir:
 	mkdir -p build

@@ -9,8 +9,8 @@ cpp:dir
 go:dir
 	gccgo -g -o build/insertion.go insertion.go
 
-run:go
-	./build/insertion.go < numbers.txt
+java:dir
+	javac -d build/ insertion.java
 
 dir:
 	mkdir -p build
