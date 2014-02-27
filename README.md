@@ -6,7 +6,7 @@ En el actual repositorio se pueden encontrar implementaciones de algunos de los 
 Algoritmos implementados
 ------------------------
 
-Algoritmo | Complejidad
+Nombre | Complejidad
 --------- | -----------
 Bubble Sort (Ordenamiento de burbuja) | O(n^2)
 Cocktail Sort (Ordenamiento de burbuja bidireccional) | O(n^2)
