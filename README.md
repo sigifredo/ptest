@@ -1,15 +1,21 @@
-Implementación de algunos algoritos de ordenamiento
+Algoritos de ordenamiento
 ===================================================
 
-Algoritmos implementados:
+En el actual repositorio se pueden encontrar implementaciones de algunos de los algoritmos de ordenamiento más conocidos.
 
-* Bubble Sort (Ordenamiento de burbuja)
-* Cocktail Sort (Ordenamiento de burbuja bidireccional)
-* Gnome Sort
-* Insertion Sort (Ordenamiento por inserción)
-* Selection Sort (Ordenamiento por selección)
+Algoritmos implementados
+------------------------
 
-Lenguajes:
+Algoritmo | Complejidad
+--------- | O(n^2)
+Bubble Sort (Ordenamiento de burbuja) | O(n^2)
+Cocktail Sort (Ordenamiento de burbuja bidireccional) | O(n^2)
+Gnome Sort | O(n^2)
+Insertion Sort (Ordenamiento por inserción) | O(n^2)
+Selection Sort (Ordenamiento por selección) | O(n^2)
+
+Lenguajes
+---------
 
 * C
 * C++
@@ -17,3 +23,4 @@ Lenguajes:
 * Java
 * Python
 * Ruby
+
