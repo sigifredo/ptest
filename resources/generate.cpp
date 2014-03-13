@@ -1,4 +1,9 @@
-
+/**
+ * Author: Sigifredo Escobar Gómez
+ * Email: sigifredo89@gmail.com
+ * Date: Wed, 12 Mar 2014 23:03:22 -0500
+ * Algorithm: Number generator
+ */
 
 #include <cstdio>
 #include <cstdlib>
