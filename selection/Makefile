@@ -1,16 +1,13 @@
 
-
-c:dir
+all:dir
 	gcc -o build/selection.c selection.c
-
-cpp:dir
 	g++ -o build/selection.cpp selection.cpp
-
-go:dir
 	gccgo -g -o build/selection.go selection.go
-
-java:dir
 	javac -d build/ selection.java
+	cp selection.py build/
+	cp selection.rb build/
+	strip build/selection.c
+	strip build/selection.cpp
 
 dir:
 	mkdir -p build
